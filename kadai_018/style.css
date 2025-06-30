@@ -49,7 +49,6 @@
 }
 #bottom {
   /* 中央配置 */
-  position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 800px;
@@ -63,7 +62,7 @@
 }
 #bottom-child02 {
   /* 本来の場所のひだり200ｐｘ */
-  position: absolute;
+  position: relative;
   left: 200px;
   width: 400px;
   height: 100px;
@@ -71,7 +70,7 @@
 }
 #bottom-child03 {
     /* 本来の場所のひだり400ｐｘ */
-  position: absolute;
+  position: relative;
   left: 400px;
   top: 200px;
   width: 400px;
